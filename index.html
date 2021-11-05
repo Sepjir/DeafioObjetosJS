@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap 5.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <Header class="text-center">
+        <h1>Datos <span id="nombreConsultorio"></span></h1>
+    </Header>
+
+    <!-- Botones para mostrar datos de pacientes -->
+    <section class="container text-center mt-5">
+        <h2>Mostrar Datos de Pacientes</h2>
+        <div class="mt-5">
+            <button type="button" class="btn btn-primary" id="consolaDatosPacientes">Por Consola</button>
+            <button type="button" class="btn btn-primary" id="limpiarConsola">Limpiar Consola</button>
+        </div>
+    </section>
+
+    <!-- Buscador -->
+    <section class="container mt-5">
+        <h2>Buscar Paciente</h2>
+        <form class="row">
+            <div class="col-6">
+              <input type="text" class="form-control" id="nombrePaciente" placeholder="Buscar Nombre">
+            </div>
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary mb-3" id="buscarPaciente">Buscar</button>
+            </div>
+          </form>
+    </section>
+    
+    <!-- Bootstrap 5.1 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Mi Script -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
